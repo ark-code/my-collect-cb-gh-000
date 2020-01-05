@@ -2,7 +2,7 @@ def my_collect(array)
   counter = 0
   coll = []
   while counter <  array.size 
-    coll << yield(array[counter]).split(' ')[0]
+    coll << yield(array[counter])
   end
   coll
 end
